@@ -1,0 +1,111 @@
+    1  git config --global user.email rkmoropane@gmail.com
+    2  man sudo_root
+    3  sudo adduser kholofelo sudo
+    4  man sudo_root
+    5  sudo adduser 'LAPTOP-OR49ITOQ\kholofelo' sudo
+    6  sudo adduser 'kholofelo' sudo
+    7  man sudo_root
+    8  mkdir git-basic-exercises
+    9  cd git-basic-exercises
+   10  1s -a
+   11  ls -a
+   12  ls
+   13  pwd
+   14  git init
+   15  ls -a
+   16  git status
+   17  touch README.md
+   18  ls -a
+   19  git status
+   20  git log
+   21  git status
+   22  git add
+   23  git add .
+   24  git status
+   25  git rm --cached README.md
+   26  git status
+   27  ls -a
+   28  git status
+   29  pwd
+   30  sudo su.
+   31  sudo su
+   32  ls -a
+   33  sudo as admin
+   34  sudo su.
+   35  sudo
+   36  sudo -u
+   37  sudo -h
+   38  sudo --admin
+   39  sudo -u admin
+   40  sudo -u administrator
+   41  sudo -u kholofelo
+   42  git status
+   43  ls -a
+   44  ls
+   45  pwd
+   46  mkdir git-basic-exercises
+   47  cd git-basic-exercises
+   48  ls -a
+   49  git init
+   50  ls -a
+   51  touch README.md
+   52  ls -a
+   53  git status
+   54  git config --global user.name "Kholofelo Moropane"
+   55  git config --global user.email "rkmoropane@gmail.com"
+   56  git log
+   57  git branch -m "main"
+   58  git log
+   59  git add README.md
+   60  git status
+   61  git rm --cache README.md
+   62  git status
+   63  git add README.md
+   64  git status
+   65  git commit -m "initial commit"
+   66  git log
+   67  nano README.md
+   68  cat README.md
+   69  git status
+   70  git commit -m "second commit"
+   71  git add README.md
+   72  git status
+   73  git commit -m "second commit"
+   74  nano README.md
+   75  cd git-basic-exercises
+   76  ls -a
+   77  cat README.md
+   78  git status
+   79  git log
+   80  nano README.md
+   81  git status
+   82  git add README.md
+   83  git status
+   84  git commit -m "third commit"
+   85  git log
+   86  git checkout 5f5b618fe7d1a0649c30f0f9d7d306a84e9b50a
+   87  git log
+   88  git checkout 5f5b618fe7d1a0649c30f0f9d7d3064a84e9b50a
+   89  cat README.md
+   90  git checkout main
+   91  git checkout master
+   92  git branch
+   93  git branch -m "main"
+   94  git branch
+   95  git branch milkshake-flavours
+   96  git branch
+   97  git checkout milkshake-flavours
+   98  git branch
+   99  nano milkshakes.md
+  100  git status
+  101  git add milkshakes.md
+  102  git commit -m "added initial flavours"
+  103  git log
+  104  git checkout main
+  105  git log
+  106  git branch
+  107  git branch history
+  108  git checkout history
+  109  git log
+  110  git branch
+  111  history > history.txt
